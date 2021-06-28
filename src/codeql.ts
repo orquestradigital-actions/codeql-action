@@ -749,7 +749,7 @@ function getCodeQLForCmd(cmd: string): CodeQL {
         "interpret-results",
         threadsFlag,
         "--format=sarif-latest",
-        "--print-metrics-summary",
+        // "--print-metrics-summary",
         "--sarif-group-rules-by-pack",
         "-v",
         `--output=${sarifFile}`,
